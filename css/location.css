@@ -1,0 +1,117 @@
+.map-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.map-wrapper{
+    position: relative;
+}
+
+.xarita{
+    margin-bottom: 120px;
+}
+
+.city-name{
+    position: relative;
+    position: absolute;
+    top: calc(50% - 85px);
+    left: calc(50% + 235px);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: var(--main-text-color);
+    background-color: var(--main-btn-color);
+    padding: 22px 39px;
+}
+
+.city-name:nth-child(2){
+    position: relative;
+    position: absolute;
+    top: calc(50% - 265px);
+    left: calc(50% - 405px);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: var(--main-text-color);
+    background-color: var(--main-btn-color);
+    padding: 22px 39px;
+}
+.city-name:nth-child(3){
+    position: relative;
+    position: absolute;
+    top: calc(50% - 325px);
+    left: calc(50% - 140px);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: var(--main-text-color);
+    background-color: var(--main-btn-color);
+    padding: 22px 39px;
+}
+.city-name:nth-child(4){
+    position: relative;
+    position: absolute;
+    top: calc(50% - 255px);
+    left: calc(50% + 300px);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: var(--main-text-color);
+    background-color: var(--main-btn-color);
+    padding: 22px 39px;
+}
+
+.city-name::after{
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 20px);
+    display: inline-block;
+    content: "";
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--main-btn-color);
+}
+
+.map-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map-text-title{
+    width: 341px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--main-text-color);
+}
+
+.map-text-desc{
+    width: 445px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--subtitle-text-color);
+}
+
+.map-text-link{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--main-bg-color);
+    border: 3px solid var(--main-btn-color);
+    padding: 14px 44px;
+    background-color: var(--main-btn-color);
+}
+.map-text-link:active{
+    color: var(--main-btn-color);
+    padding: 14px 44px;
+    background-color: transparent;
+    border: 3px solid var(--main-btn-color);
+}

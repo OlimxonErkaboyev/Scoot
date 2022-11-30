@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCOOT</title>
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/careers.css">
+    <link rel="stylesheet" href="./css/location.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -27,7 +30,7 @@
                                 <a class="site-nav__link" href="./about.html">About</a>
                             </li>
                             <li class="site-nav__item">
-                                <a class="site-nav__link" href="./location.html">Location</a>
+                                <a class="site-nav__link" href="#">Location</a>
                             </li>
                             <li class="site-nav__item">
                                 <a class="site-nav__link" href="./careers.html">Careers</a>
@@ -47,149 +50,85 @@
     <!-- MAIN START -->
     <main class="site-main">
         <!-- HERO SECTION START -->
-        <section class="hero-section">
+        <section class="about-hero__section">
             <div class="overlay-bg">
-                <div class="container">
-                    <div class="hero-section__wrapper">
-                        <h1 class="hero-section__title">
-                            Scooter sharing made simple
-                        </h1>
-                        
-                        <p class="hero-section__desc">
-                            Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!
-                        </p>
-                        
-                        <button class="hero-section__btn site-main__btn" type="button">Get Scootin</button>
+                <div class="about-hero__bg">
+                    <div class="container">
+                        <h2 class="about-hero__section-title">
+                            Locations
+                        </h2>
                     </div>
                 </div>
             </div>
         </section>
         <!-- HERO SECTION END -->
-        
-        <!-- Step-section Start -->
-        <section class="step-section">
+        <!-- MAP Section Start -->
+        <section class="map-section">
             <div class="container">
-                <div class="step-section__wrapper">
-                    <ul class="step-section_list">
-                        <li class="step-list__item">
-                            <h3 class="step-box-title">
-                                Locate with app
-                            </h3>
-                            <p class="step-box-desc">
-                                Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. 
-                            </p>
-                        </li>
-                        <li class="step-list__item">
-                            <h3 class="step-box-title">
-                                Pick your scooter
-                            </h3>
-                            <p class="step-box-desc">
-                                We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.
-                            </p>
-                        </li>
-                        <li class="step-list__item">
-                            <h3 class="step-box-title">
-                                Locate with app
-                            </h3>
-                            <p class="step-box-desc">
-                                Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. 
-                            </p>
-                        </li>
-                    </ul>
+                <div class="map-wrapper">
+                    <img class="xarita" src="./images/xarita.png" alt="Xarita">
+                    <a class="city-name" href="#">New York</a>
+                    <a class="city-name" href="#">London</a>
+                    <a class="city-name" href="#">Yokohama</a>
+                    <a class="city-name" href="#">Jakarta</a>
+                </div>
+                <div class="map-text">
+                    <h2 class="map-text-title">Your city not listed?</h2>
+                    <p class="map-text-desc">If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
+                    <a class="map-text-link" href="#">Message Us</a>
                 </div>
             </div>
         </section>
-        <!-- Step-section  End-->
-        <!-- Describe-section Start -->
-        <section class="describe-section">
+        <!-- MAP Section End -->
+        <!-- End Section Start -->
+        <section class="end-section">
             <div class="container">
-                <div class="describe-warpper">
-                    <div class="describe-top">
-                        <div class="desc-top-text">
-                            <h2 class="desc-title">Easy to use
-                                riding telemetry</h2>
-                                <p class="desc-subtitle">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
-                                <button class="desc-btn" type="button">Learn More</button>
-                            </div>
-                            <div class="desc-top-img ">
-                                <img class="easy-img" src="./images/easy-section-right.jpg" alt="girl">
-                            </div>
-                        </div>
-                        <div class="describe-top">
-                            <div class="desc-center-img">
-                                <img class="easy-img" src="./images/coming-section-left.jpg" alt="girl">
-                            </div>
-                            <div class="desc-top-text">
-                                <h2 class="desc-title">Coming to a city near you</h2>
-                                <p class="desc-subtitle">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
-                                <button class="desc-btn" type="button">Learn More</button>
-                            </div>
-                            
-                        </div>
-                        <div class="describe-top">
-                            <div class="desc-top-text">
-                                <h2 class="desc-title">Zero hassle payments</h2>
-                                <p class="desc-subtitle">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
-                                <button class="desc-btn" type="button">Learn More</button>
-                            </div>
-                            <div class="desc-end-img">
-                                <img class="easy-img" src="./images/zero-section-end.jpg" alt="girl">
-                            </div>
-                        </div>
+                <div class="end-section-wrapper">
+                    <h2 class="end-title">Sign up and Scoot off today</h2>
+                    <div class="end-img">
+                        <img src="./images/apple.svg" alt="Apple">
+                        <img src="./images/google.svg" alt="Google">
                     </div>
                 </div>
-            </section>
-            <!-- Describe-section End -->
-            
-            <!-- End Section Start -->
-            <section class="end-section">
-                <div class="container">
-                    <div class="end-section-wrapper">
-                        <h2 class="end-title">Sign up and Scoot off today</h2>
-                        <div class="end-img">
-                            <img src="./images/apple.svg" alt="Apple">
-                            <img src="./images/google.svg" alt="Google">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Section End -->
-        </main>
-        <!-- MAIN END -->
-        <!-- Footer Start -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-wrappper">
-                    <div class="footer-start">
-                        <img class="footer-logo" src="./images/footer-logo.svg" alt="Scoot"
-                        width="107" height="29">
-                        <ul class="site-nav__list">
-                            <li class="site-nav__item">
-                                <a class="site-nav__link" href="./about.html">About</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a class="site-nav__link" href="./location.html">Location</a>
-                            </li>
-                            <li class="site-nav__item">
-                                <a class="site-nav__link" href="./careers.html">Careers</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="footer-socials">
-                        <li class="social-link">
-                            <img src="./images/icons/facebook.svg" alt="">
+            </div>
+        </section>
+        <!-- End Section End -->
+    </main>
+    <!-- MAIN END -->
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrappper">
+                <div class="footer-start">
+                    <img class="footer-logo" src="./images/footer-logo.svg" alt="Scoot"
+                    width="107" height="29">
+                    <ul class="site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./about.html">About</a>
                         </li>
-                        <li class="social-link">
-                            <img src="./images/icons/twitter.svg" alt="">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Location</a>
                         </li>
-                        <li class="social-link">
-                            <img src="./images/icons/instragram.svg" alt="">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./careers.html">Careers</a>
                         </li>
                     </ul>
                 </div>
+                <ul class="footer-socials">
+                    <li class="social-link">
+                        <img src="./images/icons/facebook.svg" alt="">
+                    </li>
+                    <li class="social-link">
+                        <img src="./images/icons/twitter.svg" alt="">
+                    </li>
+                    <li class="social-link">
+                        <img src="./images/icons/instragram.svg" alt="">
+                    </li>
+                </ul>
             </div>
-        </footer>
-        <!-- Footer End -->
-        <script src="./js/main.js"></script>
-    </body>
-    </html>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
